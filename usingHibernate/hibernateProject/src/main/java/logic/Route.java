@@ -1,0 +1,56 @@
+package logic;
+
+import java.util.Set;
+import java.util.HashSet;
+
+public class Route
+{
+    private Long routeId;
+    private String name;
+    private int number;
+    private Set busses = new HashSet();
+
+    public Route()
+    {
+    }
+
+    public void setRouteId(Long routeId)
+    {
+        this.routeId = routeId;
+    }
+
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
+    public void setNumber(int number)
+    {
+        this.number = number;
+    }
+
+    public void setBusses(Set busses)
+    {
+        this.busses = busses;
+    }
+
+    public Long getRouteId()
+    {
+        return routeId;
+    }
+
+    public String getName()
+    {
+        return name;
+    }
+
+    public int getNumber()
+    {
+        return number;
+    }
+
+    public Set getBusses()
+    {
+        return busses;
+    }
+}

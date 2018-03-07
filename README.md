@@ -1,2 +1,2 @@
 # Hello-GitHub
-This is first project on GitHub
+These are helloWorld jvm projects
